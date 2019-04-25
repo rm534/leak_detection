@@ -49,7 +49,7 @@ class Model():
         wntr.graphics.network.plot_interactive_network(self.wn, title=self.title)
 
 if __name__ == "__main__":
-    model = Model("net2.inp")
+    model = Model("models/net2.inp")
     #print(model.get_node("node1"))
     #results = model.simulate_network()
     #print(model.get_pressure_at_node("node3"))

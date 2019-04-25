@@ -3,7 +3,7 @@ __author__ = "Robin M."
 import model
 import classifier
 
-MODEL = "net2.inp"
+MODEL = "models/net2.inp"
 
 
 class TaskManager(model, classifier):
